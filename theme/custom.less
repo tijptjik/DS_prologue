@@ -54,6 +54,10 @@ h1#Code {
   color: white;
   text-shadow: 3px 1px 7px #333;
   background-image: url(https://seamsandstitches.files.wordpress.com/2012/02/95653-050-59a62f7e.jpg);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: -65px;
 }
 
 h2 {
@@ -140,11 +144,24 @@ img.lead {
   margin: 0 auto !important;
 }
 
-blockquote + footer {
-  float: right;
-  margin-right: 8rem;
-  margin-bottom: 2rem;
+blockquote {
+  margin: 0 2em;
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: 7F808C;
+    font-family: roboto slab;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  + footer {
+    float: right;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    color: rgb(253, 192, 80);
+  }
 }
+
 
 
 // MARKDOWN ADJUSTMENTS
@@ -178,21 +195,26 @@ p.resource-container{
     &:visited, &:link{
       text-decoration: none;
     }
-    p {
+    code {
       font-family: @header-font;
       font-size: 4rem;
+      position: absolute;
+      width: 100%;
       color: black;
       margin:  0;
       text-align: center;
       font-weight: 700;
       color: white;
       text-shadow: 1px 1px 7px #333;
+      z-index: 2;
+      background-color: transparent;
     }
-    div {
+    span {
+      display: block;
       height: 18rem;
       width: 100rem;
-      background-size: cover;
-      background-position: center;
+      background-size: cover !important;
+      background-position: center !important;
       text-align: center;
       -webkit-filter: brightness(1.2) blur(2px) grayscale(1);
       -webkit-filter: brightness(1.2) blur(2px);
@@ -200,9 +222,8 @@ p.resource-container{
       transition:         all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
       position: absolute;
       top: 0;
-      z-index: -1;
     }
-    &:hover div{
+    &:hover span{
       -webkit-filter: initial;
       filter: initial;
       -webkit-transition: all 260ms cubic-bezier(0.215, 0.61, 0.355, 1);
