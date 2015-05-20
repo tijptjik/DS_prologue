@@ -3,11 +3,12 @@ code,codecademy-python,interactive lessons,~ 9 hours,OK foundation,hand-holding,
 code,pydata-python,book,50 p.,practical foundation,reference,Free
 code,ga-python,workshop,150 min,bare essentials,interactive,400 
 code,practicebook-python,online reference / exercises,~ 7 hours,OK foundation,reference,Free
-stats,think-stats,book,2 hours,practical foundation,programmer oriented,Free
-stats,nutshell-stats,book,190 p.,solid foundation,text boook,240
+stats,think-stats,book,3 hours,practical foundation,programmer oriented,Free
+stats,nutshell-stats,book,190 p.,solid foundation,text book,240
 stats,naked-stats,book,200 p.,solid foundation,anecdotal,80
 stats,metacademy-stats,meta-reference,7 Hours,solid foundation,systematic,Free/$
 stats,school-of-data,blog article,90 mins,bare essentials,hand-holding,Free
-data,cookbook-pandas,online reference / exercises,2 hours,practical foundation,code demo,Free
+data,cookbook-pandas,notebooks / exercises,2 hours,practical foundation,code demo,Free
+data,learn-pandas,notebooks,4 hour,solid foundation,code demo,Free
 data,pydata-pandas,book,90 p.,solid foundation,reference,150
 data,10min-pandas,overview,1 hour,conceptual,highlight features,Free
