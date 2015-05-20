@@ -106,7 +106,6 @@ blockquote p {
 blockquote + footer {
   float: right;
   margin-right: 8rem;
-  margin-bottom: 2rem;
   color: #fdc050;
 }
 .rendered_html pre {
@@ -254,6 +253,9 @@ div.output_subarea {
 #notebook .panel-body {
   font-size: 1.1em;
   line-height: 1.6em;
+}
+#notebook .output_subarea {
+  overflow: visible;
 }
 #notebook .table {
   margin-top: -40px;
