@@ -84,24 +84,7 @@ li {
 }
 img {
   max-width: 100%;
-}
-img[alt="break"] {
-  width: 8rem;
-  margin: 0 auto;
-}
-img[alt="credits"] {
-  width: 10rem;
-  margin: 4rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-img[alt="credits"] + strong {
-  margin-left: 3rem;
-}
-img[alt="prefix"] {
-  width: 4rem;
-  margin-right: 2rem;
-  float: left;
+  display: block;
 }
 img.lead {
   margin-bottom: 2.4rem;
